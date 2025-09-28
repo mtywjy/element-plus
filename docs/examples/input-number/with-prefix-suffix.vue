@@ -1,6 +1,6 @@
 <template>
   <el-space>
-    <el-input-number v-model="num" :min="1" :max="10">
+    <el-input-number v-model="num" :min="1" :max="10" align="left">
       <template #prefix>
         <span>￥</span>
       </template>
